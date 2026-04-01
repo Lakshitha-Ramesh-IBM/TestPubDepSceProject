@@ -7,3 +7,88 @@ packages:
   gitUrl: https://github.com/Lakshitha-Ramesh-IBM
   gitUsername: Lakshitha-Ramesh-IBM
   gitBranch: main
+- name: WmAmazonSQSProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+services:
+- serviceName: project.testpubdepsce.WmAmazonSQSProvider.com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105.connections:amazonsqs2
+  packages:
+  - name: TestPubDepSceProject
+    version: "1.0"
+  - name: WmAmazonSQSProvider
+    version: 12.0.0.0.14
+configurationVariables:
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.hostnameVerifier
+  : org.apache.http.conn.ssl.DefaultHostnameVerifier
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.pr.httpContentCharSet
+  : ISO-8859-1
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.minimumPoolSize
+  : "1"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.blockTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.startupRetryCount
+  : "0"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.connectTimeout
+  : "30000"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.maximumPoolSize
+  : "10"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.pr.useExpectCont
+  : "false"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.aws.accessKey
+  : AKIA4CO5TWR6Q6LYDCNI
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.pr.useChunking
+  : "false"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.pr.followServerRedirects
+  : "true"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.poolable
+  : "false"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.socketStaleCheck
+  : "true"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.retryCount
+  : "4"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.enableCompression
+  : "false"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.tcpNoDelay
+  : "false"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.aws.durationSeconds
+  : "3600"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.pr.allowCircularRedirects
+  : "true"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.pr.serverRedirectMax
+  : "5"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.aws.secretKey
+  : "{AES}xq6NV6GY8b7pp90PtLGYJ3Le14Zf2TSN6f+W5DZhtbieAokPxTVUsmspPQ/QhOpU"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.reuseAddr
+  : "false"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.readTimeout
+  : "30000"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.idleTimeout
+  : "-1"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.providerUrl
+  : http://sqs.us-east-1.amazonaws.com
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.sockBuffSize
+  : "8192"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.enableSNI
+  : "true"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.validateAfterInactivity
+  : "1000"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.timeoutType
+  : none
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.pr.userAgent
+  : Cloudstreams
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.startupBackoffSecs
+  : "10"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.poolIncrementSize
+  : "1"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.connectionEnabled
+  : "true"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.retryIfRequestSentOk
+  : "true"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.expireTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.keepAliveInterval
+  : "-1"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.cn.socketLinger
+  : "-1"
+  ? cloudstreamsconnection.project..testpubdepsce..WmAmazonSQSProvider..com_webmethods_cloudstreams_amazon_sqs_aws4_v20121105..connections:amazonsqs2.pr.protocolVersion
+  : HTTP/1.1
